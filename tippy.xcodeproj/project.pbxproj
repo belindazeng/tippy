@@ -14,6 +14,8 @@
 		F23FE2DB1D9EE9F300951CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23FE2D91D9EE9F300951CF2 /* LaunchScreen.storyboard */; };
 		F23FE2E61D9EE9F300951CF2 /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23FE2E51D9EE9F300951CF2 /* tippyTests.swift */; };
 		F23FE2F11D9EE9F300951CF2 /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23FE2F01D9EE9F300951CF2 /* tippyUITests.swift */; };
+		F23FE3011D9F1D7600951CF2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23FE3001D9F1D7600951CF2 /* SettingsViewController.swift */; };
+		F23FE3031D9F593800951CF2 /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23FE3021D9F593800951CF2 /* FortuneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F23FE2EC1D9EE9F300951CF2 /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23FE2F01D9EE9F300951CF2 /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		F23FE2F21D9EE9F300951CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23FE3001D9F1D7600951CF2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F23FE3021D9F593800951CF2 /* FortuneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F23FE2D71D9EE9F200951CF2 /* Assets.xcassets */,
 				F23FE2D91D9EE9F300951CF2 /* LaunchScreen.storyboard */,
 				F23FE2DC1D9EE9F300951CF2 /* Info.plist */,
+				F23FE3001D9F1D7600951CF2 /* SettingsViewController.swift */,
+				F23FE3021D9F593800951CF2 /* FortuneViewController.swift */,
 			);
 			path = tippy;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23FE3031D9F593800951CF2 /* FortuneViewController.swift in Sources */,
 				F23FE2D31D9EE9F200951CF2 /* ViewController.swift in Sources */,
 				F23FE2D11D9EE9F200951CF2 /* AppDelegate.swift in Sources */,
+				F23FE3011D9F1D7600951CF2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				F23FE2F71D9EE9F300951CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F23FE2F81D9EE9F300951CF2 /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				F23FE2FA1D9EE9F300951CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F23FE2FB1D9EE9F300951CF2 /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				F23FE2FD1D9EE9F300951CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
